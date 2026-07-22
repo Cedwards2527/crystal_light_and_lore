@@ -50,7 +50,7 @@
     serif;
   font-weight: 300;
   font-size: clamp(2rem, 6vw, 4rem);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
   line-height: 1.1;
   color: #f5e6d3;
   text-shadow:
@@ -59,7 +59,7 @@
 }
 
 .header__subtitle {
-  font-family: "Jost", sans-serif;
+  font-family: Jost, sans-serif;
   color: white;
   opacity: 0.75;
   font-weight: 300;
@@ -73,7 +73,7 @@
   opacity: 0.85;
   width: 1rem;
   height: 1rem;
-  animation: sparklePulse 2s ease-in-out infinite;
+  animation: sparkle 2s ease-in-out infinite;
 }
 
 @keyframes sparkle {

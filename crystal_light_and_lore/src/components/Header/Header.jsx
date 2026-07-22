@@ -12,7 +12,7 @@ function Header() {
       <div className="header__content">
         <div className="header__subtitle-row">
           <Sparkles className="header__sparkles" />
-          <p className="header__subtitle">Psychic Medium & Tarot Reader</p>
+          <p className="header__subtitle">Psychic Medium & Oracle Reader</p>
           <Sparkles className="header__sparkles" />
         </div>
         <h1 className="header__title">Crystal Light & Lore</h1>

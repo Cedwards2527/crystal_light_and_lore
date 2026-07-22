@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 300 700;
+  src: url("./CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300 700;
+  src: url("./Jost-VariableFont_wght.ttf") format("truetype");
+}
