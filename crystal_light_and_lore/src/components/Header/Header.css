@@ -14,7 +14,7 @@
   background-image: var(--header-image);
   background-size: cover;
   background-position: center;
-  filter: blur(18px) brightness(0.75) saturate(1.2);
+  filter: blur(10px) brightness(0.5) saturate(1.2);
   transform: scale(1.08);
   z-index: 0;
 }
