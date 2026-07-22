@@ -15,7 +15,7 @@ function Header() {
           <p className="header__subtitle">Psychic Medium & Oracle Reader</p>
           <Sparkles className="header__sparkles" />
         </div>
-        <h1 className="header__title">Crystal Light & Lore</h1>
+        <h1 className="header__title">Crystal's Light & Lore</h1>
       </div>
     </header>
   );
