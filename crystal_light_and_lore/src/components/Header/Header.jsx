@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import { CalendarHeart } from "lucide-react";
 import headerImage from "../../assets/header-image.jpg";
 import "./Header.css";
 
@@ -16,6 +17,10 @@ function Header() {
           <Sparkles className="header__sparkles" />
         </div>
         <h1 className="header__title">Crystal's Light & Lore</h1>
+        <button className="appointment__button">
+          <CalendarHeart className="calendar" strokeWidth={1.5} /> Book an
+          Appointment
+        </button>
       </div>
     </header>
   );
