@@ -14,9 +14,21 @@
   background-image: var(--header-image);
   background-size: cover;
   background-position: center;
-  filter: blur(10px) brightness(0.8) saturate(1.2);
+  filter: blur(18px) brightness(0.8) saturate(1.2);
   transform: scale(1.08);
   z-index: 0;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(61, 43, 31, 0) 30%,
+    rgba(61, 43, 31, 0.45) 100%
+  );
+  z-index: 1;
 }
 
 .header__image {
@@ -88,7 +100,6 @@
   background: rgba(181, 138, 117, 0.88);
   backdrop-filter: blur(6px);
   color: #fff;
-  backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 4px 20px rgba(61, 43, 31, 0.3);
   padding: 0.5rem 1.25rem;
