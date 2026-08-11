@@ -1,10 +1,15 @@
+import { Sparkles } from "lucide-react";
 import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <h1 className="title">home</h1>
-    </div>
+    <section className="home__page">
+      <div className="home">
+        <Sparkles className="home__sparkles" />
+        <p className="home__subtitle">Light · Love · Guidance</p>
+        <Sparkles className="home__sparkles" />
+      </div>
+    </section>
   );
 }
 

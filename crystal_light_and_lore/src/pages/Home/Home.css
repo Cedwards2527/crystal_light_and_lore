@@ -1,3 +1,24 @@
-.title {
-  color: black;
+.home {
+  position: relative;
+  display: flex;
+  top: 0.67rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.home__sparkles {
+  color: #86c3ce;
+  opacity: 0.85;
+  width: 1rem;
+  height: 1rem;
+  animation: sparkle 2s ease-in-out infinite;
+}
+.home__subtitle {
+  font-family: Jost, sans-serif;
+  color: #4a7f84;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
