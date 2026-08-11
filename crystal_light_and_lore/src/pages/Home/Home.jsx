@@ -10,6 +10,10 @@ function Home() {
         <Sparkles className="home__sparkles" />
       </div>
       <h2 className="home__title">Spiritual Readings</h2>
+      <p className="home__paragraph">
+        Welcome, beautiful soul. Connect with divine guidance through the
+        ancient wisdom of tarot.
+      </p>
     </section>
   );
 }
