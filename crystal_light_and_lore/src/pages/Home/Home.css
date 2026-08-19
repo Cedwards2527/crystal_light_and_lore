@@ -50,3 +50,160 @@
   margin-top: 1.5rem;
   text-align: center;
 }
+
+.button__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 42rem;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.daily__card,
+.random__reading {
+  width: 100%;
+  min-height: 100%;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid;
+
+  text-align: center;
+
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+  transition:
+    box-shadow 300ms ease,
+    transform 300ms ease;
+
+  cursor: pointer;
+}
+
+.calendar {
+  width: 1.75rem;
+  height: 1.75rem;
+  stroke-width: 1.5;
+  color: #ffffff;
+}
+
+.daily__card {
+  background: linear-gradient(135deg, #fdf9f6 0%, #efe6dc 100%);
+
+  border-color: rgba(211, 164, 140, 0.35);
+}
+
+.daily__card:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  transform: translateY(-0.25rem);
+}
+
+.random__reading {
+  background: linear-gradient(135deg, #f0f9fa 0%, #e0f2f5 100%);
+
+  border-color: rgba(134, 195, 206, 0.4);
+}
+
+.random__reading:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  transform: translateY(-0.25rem);
+}
+
+.daily__icon-container,
+.random__icon-container {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.daily__icon-container {
+  background: linear-gradient(135deg, #d3a48c, #b58a75);
+}
+
+.random__icon-container {
+  background: linear-gradient(135deg, #86c3ce, #4a7f84);
+}
+
+.calendar,
+.sparkles {
+  width: 1.75rem;
+  height: 1.75rem;
+
+  stroke-width: 1.5;
+
+  color: #ffffff;
+}
+
+.daily__card-title,
+.random__reading-title {
+  font-family:
+    Cormorant Garamond,
+    serif;
+
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  margin-bottom: 0.5rem;
+}
+
+.daily__card-title {
+  color: #b58a75;
+}
+
+.random__reading-title {
+  color: #4a7f84;
+}
+
+.daily__card-content p,
+.random__reading-content p {
+  font-family: Jost, sans-serif;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+
+  line-height: 1.625;
+
+  margin: 0;
+}
+
+.daily__card-content p {
+  color: #8c6f62;
+}
+
+.random__reading-content p {
+  color: #4a7f84;
+}
+
+.daily__card-pill,
+.random__reading-pill {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-family: Jost, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.daily__card-pill {
+  background: linear-gradient(135deg, #d3a48c, #b58a75);
+}
+
+.random__reading-pill {
+  background: linear-gradient(135deg, #86c3ce, #4a7f84);
+}

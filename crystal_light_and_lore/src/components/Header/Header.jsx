@@ -18,8 +18,8 @@ function Header() {
           </div>
           <h1 className="header__title">Crystal's Light & Lore</h1>
           <button className="appointment__button">
-            <CalendarHeart className="calendar" strokeWidth={1.5} /> Book an
-            Appointment
+            <CalendarHeart className="calendar__heart" strokeWidth={1.5} /> Book
+            an Appointment
           </button>
         </div>
       </header>
