@@ -38,6 +38,12 @@ function Home() {
           <span className="random__reading-pill">Draw a Card</span>
         </button>
       </div>
+      <div className="homepage__bottom">
+        <p className="quote">
+          "The cards are a mirror to your soul, reflecting the divine wisdom
+          already within you."
+        </p>
+      </div>
     </section>
   );
 }

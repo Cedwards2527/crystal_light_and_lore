@@ -207,3 +207,18 @@
 .random__reading-pill {
   background: linear-gradient(135deg, #86c3ce, #4a7f84);
 }
+
+.homepage__bottom {
+  display: flex;
+}
+.quote {
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-size: 1.05rem;
+  font-weight: font-light;
+  font-style: italic;
+  color: #b58a75;
+
+  margin-top: 4rem;
+}
