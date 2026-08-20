@@ -1,6 +1,8 @@
 import { Sparkles, Calendar } from "lucide-react";
 import "./Home.css";
 
+const dots = [...Array(5)].map((_, i) => <div key={i} className="dot" />);
+
 function Home() {
   return (
     <section className="home__page">
@@ -43,6 +45,7 @@ function Home() {
           "The cards are a mirror to your soul, reflecting the divine wisdom
           already within you."
         </p>
+        <div className="dots">{dots}</div>
       </div>
     </section>
   );
