@@ -131,7 +131,7 @@
   justify-content: flex-end;
 }
 
-.about__button {
+.about__link {
   font-family: Jost, sans-serif;
   margin-top: 0.5rem;
   margin-right: 1.5rem;
@@ -142,6 +142,7 @@
   border-radius: 9999px;
   padding: 0.625rem 1.5rem;
   font-weight: 300;
+  text-decoration: none;
   transition:
     transform 300ms ease,
     box-shadow 300ms ease;
@@ -153,7 +154,7 @@
   height: 0.875rem;
 }
 
-.about__button:hover {
+.about__link:hover {
   box-shadow:
     0 4px 6px -1px rgb(0 0 0 / 0.1),
     0 2px 4px -2px rgb(0 0 0 / 0.1);

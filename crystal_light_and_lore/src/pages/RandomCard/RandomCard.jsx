@@ -1,5 +1,11 @@
+import BackToHome from "../../components/BackToHome/BackToHome.";
+
 function RandomCard() {
-  return <h2>random Card</h2>;
+  return (
+    <div>
+      <BackToHome />
+    </div>
+  );
 }
 
 export default RandomCard;

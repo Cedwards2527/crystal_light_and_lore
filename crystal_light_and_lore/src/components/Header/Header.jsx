@@ -1,4 +1,5 @@
 import { Sparkles, CalendarHeart, User } from "lucide-react";
+import { Link } from "react-router-dom";
 import headerImage from "../../assets/header-image.jpg";
 import "./Header.css";
 
@@ -24,9 +25,9 @@ function Header() {
         </div>
       </header>
       <div className="about__content">
-        <button className="about__button">
+        <Link to="/About" className="about__link">
           <User className="user__icon" strokeWidth={1.5} /> Meet Crystal
-        </button>
+        </Link>
       </div>
     </section>
   );

@@ -63,6 +63,7 @@
 
 .daily__card,
 .random__reading {
+  box-sizing: border-box;
   width: 100%;
   min-height: 100%;
   padding: 2rem;
@@ -75,6 +76,7 @@
   transition:
     box-shadow 300ms ease,
     transform 300ms ease;
+  text-decoration: none;
   cursor: pointer;
 }
 

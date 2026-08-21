@@ -1,7 +1,9 @@
+import BackToHome from "../../components/BackToHome/BackToHome.";
+
 function CardOfTheDay() {
   return (
     <div>
-      <h2>Card of the day</h2>
+      <BackToHome />
     </div>
   );
 }

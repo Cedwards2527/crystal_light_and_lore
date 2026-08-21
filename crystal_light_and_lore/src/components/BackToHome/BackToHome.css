@@ -1,0 +1,21 @@
+.back__to-home {
+  font-family: Jost, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #b58a75;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+  transition: opacity 0.3 ease;
+}
+
+.back-to-home:hover {
+  opacity: 0.7;
+}
+
+.arrow__left {
+  width: 1rem;
+  height: 1rem;
+}

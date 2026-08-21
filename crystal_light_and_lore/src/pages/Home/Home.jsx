@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { Sparkles, Calendar } from "lucide-react";
+
 import "./Home.css";
 
 const dots = [...Array(5)].map((_, i) => <div key={i} className="dot" />);
@@ -17,7 +19,7 @@ function Home() {
         ancient wisdom of tarot.
       </p>
       <div className="button__container">
-        <button className="daily__card" type="button">
+        <Link to="/daily" className="daily__card">
           <div className="daily__icon-container">
             <Calendar className="calendar" strokeWidth={1.5} />
           </div>
@@ -27,9 +29,9 @@ function Home() {
             each day.
           </p>
           <span className="daily__card-pill">View Today's Card</span>
-        </button>
+        </Link>
 
-        <button className="random__reading" type="button">
+        <Link to="/random" className="random__reading">
           <div className="random__icon-container">
             <Sparkles className="sparkles" strokeWidth={1.5} />
           </div>
@@ -38,7 +40,7 @@ function Home() {
             Ask a question and draw a card whenever you need divine guidance.
           </p>
           <span className="random__reading-pill">Draw a Card</span>
-        </button>
+        </Link>
       </div>
       <div className="homepage__bottom">
         <p className="quote">
