@@ -1,17 +1,25 @@
+.back__to-home-container {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
 .back__to-home {
   font-family: Jost, sans-serif;
+  display: inline-flex;
   font-size: 0.875rem;
   font-weight: 300;
-  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   color: #b58a75;
   text-decoration: none;
   margin-bottom: 2.5rem;
-  transition: opacity 0.3 ease;
+  transition: opacity 0.3s ease;
 }
 
-.back-to-home:hover {
+.back__to-home:hover {
   opacity: 0.7;
 }
 

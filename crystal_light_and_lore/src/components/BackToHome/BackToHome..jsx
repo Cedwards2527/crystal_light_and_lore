@@ -4,9 +4,11 @@ import "./BackToHome.css";
 
 function BackToHome() {
   return (
-    <Link to="/" className="back__to-home">
-      <ArrowLeft className="arrow__left" /> Back to Home
-    </Link>
+    <div className="back__to-home-container">
+      <Link to="/" className="back__to-home">
+        <ArrowLeft className="arrow__left" /> Back to Home
+      </Link>
+    </div>
   );
 }
 
