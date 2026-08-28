@@ -1,6 +1,40 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .about__image {
   border-radius: 50%;
-  height: 300px;
-  width: min(300px, 100%);
-  object-fit: fill;
+  height: 200px;
+  width: min(200px, 100%);
+  object-fit: cover;
+  border: 7px, solid, #b58a75;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.3);
+}
+
+.about__name {
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-size: 3.5rem;
+  margin: auto;
+  background: linear-gradient(135deg, #b58a75 0%, #d3a48c 50%, #4a7f84 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+}
+
+.about__subtitle {
+  position: relative;
+  font-family: Jost, sans-serif;
+  background-color: #efe6dc;
+  color: #4a7f84;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin: -7px;
 }

@@ -8,6 +8,8 @@ function About() {
       <BackToHome />
       <div className="about__container">
         <img className="about__image" src={aboutImage} />
+        <h2 className="about__name">Crystal</h2>
+        <p className="about__subtitle">Psychic Medium & Oracle Reader</p>
       </div>
     </section>
   );
