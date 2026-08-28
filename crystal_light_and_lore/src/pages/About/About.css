@@ -38,3 +38,10 @@
   text-transform: uppercase;
   margin: -7px;
 }
+
+.about__sparkles {
+  color: #86c3ce;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 50px;
+}
