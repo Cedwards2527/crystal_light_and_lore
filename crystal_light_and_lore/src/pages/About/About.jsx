@@ -38,7 +38,7 @@ function About() {
           </p>
 
           <h3 className="readings__title">
-            <Sparkles className="reading__sparkle" />
+            <Sparkles className="reading__sparkle" strokeWidth={1.5} />
             THE READINGS
           </h3>
 
@@ -60,7 +60,7 @@ function About() {
           </p>
 
           <h3 className="apothecary__title">
-            <Leaf className="leaf" />
+            <Leaf className="leaf" strokeWidth={1.5} />
             THE APOTHECARY
           </h3>
 
@@ -79,7 +79,7 @@ function About() {
           </p>
 
           <h3 className="road__title">
-            <Caravan className="caravan" />
+            <Caravan className="caravan" strokeWidth={1.5} />
             MAGIC ON THE ROAD
           </h3>
 

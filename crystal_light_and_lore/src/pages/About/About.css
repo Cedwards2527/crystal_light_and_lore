@@ -64,3 +64,56 @@
   width: 1rem;
   height: 1rem;
 }
+
+.about__text {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.about__title,
+.readings__title,
+.apothecary__title,
+.road__title {
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.readings__title {
+  color: #b58a75;
+}
+
+.about__title,
+.apothecary__title {
+  color: #4a7f84;
+}
+
+.road__title {
+  color: #b58a75;
+}
+
+.reading__sparkle,
+.leaf,
+.caravan {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 10px;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 2;
+  color: #6b5247;
+}
+
+.about__heart {
+  width: 1rem;
+  height: 1rem;
+  color: #d3a48c;
+}
