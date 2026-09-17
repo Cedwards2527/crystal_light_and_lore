@@ -11,7 +11,12 @@ function About() {
         <img className="about__image" src={aboutImage} />
         <h2 className="about__name">Crystal</h2>
         <p className="about__subtitle">Psychic Medium & Oracle Reader</p>
-        <Sparkles className="about__sparkles" strokeWidth={1.5} />
+
+        <div className="about__divider">
+          <div className="about__divider-line about__divider-line-left" />
+          <Sparkles className="about__sparkles" strokeWidth={1.5} />
+          <div className="about__divider-line about__divider-line-right" />
+        </div>
       </div>
     </section>
   );

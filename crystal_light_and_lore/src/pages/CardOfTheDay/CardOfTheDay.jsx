@@ -2,9 +2,9 @@ import BackToHome from "../../components/BackToHome/BackToHome.";
 
 function CardOfTheDay() {
   return (
-    <div>
+    <section className="daily__page">
       <BackToHome />
-    </div>
+    </section>
   );
 }
 
