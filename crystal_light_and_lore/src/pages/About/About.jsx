@@ -28,13 +28,9 @@ function About() {
           </p>
           <p>
             {" "}
-            For the past six years, I've operated as a joyful, direct bridge
-            between our world and the unseen realm. When we sit down together,
-            expect an interactive collaboration!
-          </p>
-          <p>
-            I like to brew a warm cup of tea for us while I pull from multiple
-            decks.
+            For the past eight years, I've operated as a direct bridge between
+            our world and the unseen realm. When we sit down together, I like to
+            brew a cup of warm tea and have an interactive collaboration.
           </p>
 
           <h3 className="readings__title">
@@ -44,19 +40,27 @@ function About() {
 
           <p>
             {" "}
-            My primary focus is working with multiple decks of Oracle cards to
-            weave together a beautifully honest look at exactly what you need to
-            grow right now. As a medium, the spirit world communicates with me
-            in a variety of whimsical ways—sometimes it's a sudden image flashed
-            in my mind, a specific scent out of nowhere, or a whisper from
-            angels and passed loved ones.
+            My primary focus is working with multiple decks of Oracle cards,
+            weaving their messages together to create a beautifully honest look
+            at exactly what you need to grow right now. I don't believe a
+            reading should simply tell you what the cards say. It's about
+            putting the pieces together and seeing what they might be showing
+            you in this particular moment.
           </p>
 
           <p>
             {" "}
+            As a medium, the spirit world communicates with me in a variety of
+            whimsical ways. Sometimes it's a sudden image flashed in my mind, a
+            specific scent out of nowhere, or a whisper from angels and passed
+            loved ones.
+          </p>
+
+          <p>
             My favorite part of this gift is that I act as a two-way bridge.
             While I can't force the doorway open, often these energies pop in to
-            chat. I love helping you decode what they're messages are.
+            chat. When they do, I love helping you decode what their messages
+            are and making sense of what comes through.
           </p>
 
           <h3 className="apothecary__title">
@@ -66,16 +70,18 @@ function About() {
 
           <p>
             {" "}
-            When the cards are put away, I'm tucked into my traveling kitchen
-            brewing up earthly delights. I handcraft whimsical infused candles,
-            intention sachets, magical herb blends, and spells to bring a little
-            extra sparkle and support into your daily life.
+            And when the cards are put away, the magic doesn't quite stop. I'm
+            tucked into my traveling kitchen, brewing up earthly delights and
+            creating things with my own two hands.
           </p>
 
           <p>
             {" "}
-            So, let's sit down, share a cup of tea, and see what beautiful
-            secrets the universe is ready to whisper to you!
+            I handcraft whimsical infused candles, intention sachets, magical
+            herb blends, and spells to bring a little extra sparkle and support
+            into your daily life. Each one is made with the same intention I
+            bring to a reading: to create something meaningful that you can
+            carry with you beyond our time together.
           </p>
 
           <h3 className="road__title">
@@ -84,15 +90,22 @@ function About() {
           </h3>
 
           <p>
-            Because my home has wheels, I offer all of my interactive readings
-            globally via Phone, Video (Zoom/FaceTime), or Email.
+            Of course, having a home with wheels means that my little world is
+            always moving, and because my home has wheels, I offer all of my
+            interactive readings globally via Phone, Video (Zoom/FaceTime), or
+            Email.
           </p>
 
           <p>
-            Magic delivered to your door no matter where my RV is parked this
-            week, my traveling apothecary is always open. I safely ship all of
-            my handcrafted candles, sachets, herbs, and spells straight to your
-            doorstep, nationwide.
+            And no matter where my RV is parked this week, my traveling
+            apothecary is always open. I safely ship all of my handcrafted
+            candles, sachets, herbs, and spells straight to your doorstep,
+            nationwide.
+          </p>
+
+          <p>
+            So, let's sit down, share a cup of tea, and see what beautiful
+            secrets the universe is ready to whisper to you!
           </p>
 
           <div className="about__divider">
