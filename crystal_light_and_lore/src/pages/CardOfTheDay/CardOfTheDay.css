@@ -1,0 +1,26 @@
+.daily__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.daily__sun {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #d3a48c;
+  animation: sparkle 4s ease-in-out infinite;
+}
+
+.daily__title {
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-weight: 300;
+  font-size: 3.75rem;
+  background: linear-gradient(135deg, #b58a75, #d3a48c, #4a7f84);
+  margin: 10px;
+  -webkit-background-clip: text;
+  margin: 10px;
+  -webkit-text-fill-color: transparent;
+}
