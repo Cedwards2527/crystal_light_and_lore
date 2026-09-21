@@ -18,7 +18,7 @@ function Header() {
             <Sparkles className="header__sparkles" />
           </div>
           <h1 className="header__title">Crystal's Light & Lore</h1>
-          <button className="appointment__button">
+          <button className="appointment__button" type="button">
             <CalendarHeart className="calendar__heart" strokeWidth={1.5} /> Book
             an Appointment
           </button>
