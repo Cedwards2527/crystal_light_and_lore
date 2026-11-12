@@ -5,6 +5,12 @@ import "./Home.css";
 function Home() {
   return (
     <section className="about__page">
+      <div className="home__subtitle-row">
+        <Sparkles className="home__sparkles" />
+        <p className="home__subtitle">Light · Love · Guidance</p>
+        <Sparkles className="home__sparkles" />
+      </div>
+      <h2 className="home__title">Spiritual Readings</h2>
       <div className="about__container">
         <img className="about__image" src={aboutImage} />
         <h2 className="about__name">Crystal</h2>
