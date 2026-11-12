@@ -8,15 +8,15 @@ const dots = [...Array(5)].map((_, i) => <div key={i} className="dot" />);
 
 function Cards() {
   return (
-    <section className="home__page">
+    <section className="cards__page">
       <BackToHome />
-      <div className="home__subtitle-row">
-        <Sparkles className="home__sparkles" />
-        <p className="home__subtitle">Light · Love · Guidance</p>
-        <Sparkles className="home__sparkles" />
+      <div className="card__subtitle-row">
+        <Sparkles className="card__sparkles" />
+        <p className="card__subtitle">Light · Love · Guidance</p>
+        <Sparkles className="card__sparkles" />
       </div>
-      <h2 className="home__title">Spiritual Readings</h2>
-      <p className="home__paragraph">
+      <h2 className="card__title">Free Daily Tarot Reading</h2>
+      <p className="card__paragraph">
         Welcome, beautiful soul. Connect with divine guidance through the
         ancient wisdom of tarot.
       </p>
@@ -44,7 +44,7 @@ function Cards() {
           <span className="random__reading-pill">Draw a Card</span>
         </Link>
       </div>
-      <div className="homepage__bottom">
+      <div className="card-page__bottom">
         <p className="quote">
           "The cards are a mirror to your soul, reflecting the divine wisdom
           already within you."
