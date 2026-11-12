@@ -112,6 +112,7 @@
   transition:
     transform 300ms ease,
     box-shadow 300ms ease;
+  border: none;
 }
 
 .appointment__button:hover {

@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Home from "./pages/Home/Home";
+import Cards from "./pages/Cards/Cards";
 import Footer from "./components/Footer/Footer";
 import CardOfTheDay from "./pages/CardOfTheDay/CardOfTheDay";
 import RandomCard from "./pages/RandomCard/RandomCard";
-import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
 import "./App.css";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/daily" element={<CardOfTheDay />} />
           <Route path="/random" element={<RandomCard />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<Cards />} />
         </Routes>
       </main>
       <Footer />

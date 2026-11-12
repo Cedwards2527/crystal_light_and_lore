@@ -1,53 +1,110 @@
-import { Link } from "react-router-dom";
-import { Sparkles, Calendar } from "lucide-react";
-
+import { Sparkles, Leaf, Caravan, Heart } from "lucide-react";
+import aboutImage from "../../assets/about-image.jpg";
 import "./Home.css";
-
-const dots = [...Array(5)].map((_, i) => <div key={i} className="dot" />);
 
 function Home() {
   return (
-    <section className="home__page">
-      <div className="home__subtitle-row">
-        <Sparkles className="home__sparkles" />
-        <p className="home__subtitle">Light · Love · Guidance</p>
-        <Sparkles className="home__sparkles" />
-      </div>
-      <h2 className="home__title">Spiritual Readings</h2>
-      <p className="home__paragraph">
-        Welcome, beautiful soul. Connect with divine guidance through the
-        ancient wisdom of tarot.
-      </p>
-      <div className="button__container">
-        <Link to="/daily" className="daily__card">
-          <div className="daily__icon-container">
-            <Calendar className="calendar" strokeWidth={1.5} />
+    <section className="about__page">
+      <div className="about__container">
+        <img className="about__image" src={aboutImage} />
+        <h2 className="about__name">Crystal</h2>
+        <p className="about__subtitle">Psychic Medium & Oracle Reader</p>
+        <div className="about__text">
+          <div className="about__divider">
+            <div className="about__divider-line about__divider-line-left" />
+            <Sparkles className="about__sparkles" strokeWidth={1.5} />
+            <div className="about__divider-line about__divider-line-right" />
           </div>
-          <h2 className="daily__card-title">Daily Tarot Card</h2>
+          <h3 className="about__title"> Hello there!</h3>
           <p>
-            Receive your personal message from the universe. A new card revealed
-            each day.
+            I'm Crystal, and welcome to Crystal's Light & Lore. Think of me as a
+            cosmic bridge to the unseen realm. My roots belong to the sea
+            breezes of Cape Cod, but these days, I'm traveling the country
+            full-time in my RV, chasing sunlight and gathering magic.
           </p>
-          <span className="daily__card-pill">View Today's Card</span>
-        </Link>
-
-        <Link to="/random" className="random__reading">
-          <div className="random__icon-container">
-            <Sparkles className="sparkles" strokeWidth={1.5} />
+          <p>
+            {" "}
+            For the past eight years, I've operated as a direct bridge between
+            our world and the unseen realm. When we sit down together, I like to
+            brew a cup of warm tea and have an interactive collaboration.
+          </p>
+          <h3 className="readings__title">
+            <Sparkles className="reading__sparkle" strokeWidth={1.5} />
+            THE READINGS
+          </h3>
+          <p>
+            {" "}
+            My primary focus is working with multiple decks of Oracle cards,
+            weaving their messages together to create a beautifully honest look
+            at exactly what you need to grow right now. I don't believe a
+            reading should simply tell you what the cards say. It's about
+            putting the pieces together and seeing what they might be showing
+            you in this particular moment.
+          </p>
+          <p>
+            {" "}
+            As a medium, the spirit world communicates with me in a variety of
+            whimsical ways. Sometimes it's a sudden image flashed in my mind, a
+            specific scent out of nowhere, or a whisper from angels and passed
+            loved ones.
+          </p>
+          <p>
+            My favorite part of this gift is that I act as a two-way bridge.
+            While I can't force the doorway open, often these energies pop in to
+            chat. When they do, I love helping you decode what their messages
+            are and making sense of what comes through.
+          </p>
+          <h3 className="apothecary__title">
+            <Leaf className="leaf" strokeWidth={1.5} />
+            THE APOTHECARY
+          </h3>
+          <p>
+            {" "}
+            And when the cards are put away, the magic doesn't quite stop. I'm
+            tucked into my traveling kitchen, brewing up earthly delights and
+            creating things with my own two hands.
+          </p>
+          <p>
+            {" "}
+            I handcraft whimsical infused candles, intention sachets, magical
+            herb blends, and spells to bring a little extra sparkle and support
+            into your daily life. Each one is made with the same intention I
+            bring to a reading: to create something meaningful that you can
+            carry with you beyond our time together.
+          </p>
+          <h3 className="road__title">
+            <Caravan className="caravan" strokeWidth={1.5} />
+            MAGIC ON THE ROAD
+          </h3>
+          <p>
+            Of course, having a home with wheels means that my little world is
+            always moving, and because my home has wheels, I offer all of my
+            interactive readings globally via Phone, Video (Zoom/FaceTime), or
+            Email.
+          </p>
+          <p>
+            And no matter where my RV is parked this week, my traveling
+            apothecary is always open. I safely ship all of my handcrafted
+            candles, sachets, herbs, and spells straight to your doorstep,
+            nationwide.
+          </p>
+          <p>
+            So, let's sit down, share a cup of tea, and see what beautiful
+            secrets the universe is ready to whisper to you!
+          </p>
+          <div className="about__divider">
+            <div className="about__divider-line about__divider-line-left" />
+            <Heart className="about__heart" strokeWidth={1.5} />
+            <div className="about__divider-line about__divider-line-right" />
           </div>
-          <h2 className="random__reading-title">Random Reading</h2>
-          <p>
-            Ask a question and draw a card whenever you need divine guidance.
-          </p>
-          <span className="random__reading-pill">Draw a Card</span>
-        </Link>
-      </div>
-      <div className="homepage__bottom">
-        <p className="quote">
-          "The cards are a mirror to your soul, reflecting the divine wisdom
-          already within you."
+        </div>
+        <p className="bottom__text">
+          {" "}
+          Ready to connect? I would be honored to read for you.
         </p>
-        <div className="dots">{dots}</div>
+        <button className="about__appointment-button" type="button">
+          Book an Appointment
+        </button>
       </div>
     </section>
   );
