@@ -1,5 +1,6 @@
 import { Sun } from "lucide-react";
 import BackToHome from "../../components/BackToHome/BackToHome.";
+import TarotCardDisplay from "../../components/TarotCardDisplay/TarotCardDisplay";
 import "./CardOfTheDay.css";
 
 function CardOfTheDay() {
@@ -20,6 +21,7 @@ function CardOfTheDay() {
           "This is your divine message for today. Carry its wisdom with you
           throughout your journey."
         </p>
+        <TarotCardDisplay />
       </div>
     </section>
   );
