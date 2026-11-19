@@ -13,7 +13,7 @@ function Header() {
         <img className="header__image" src={headerImage} alt="Header Image" />
         <div className="header__content">
           <div className="header__subtitle-row">
-            <Sparkles className="header__sparkles" />
+            <Sparkles className="header__sparkles" strokeWidth={1.5} />
             <p className="header__subtitle">Psychic Medium & Oracle Reader</p>
             <Sparkles className="header__sparkles" />
           </div>

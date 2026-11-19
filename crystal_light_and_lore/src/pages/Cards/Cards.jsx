@@ -44,7 +44,7 @@ function Cards() {
           <span className="random__reading-pill">Draw a Card</span>
         </Link>
       </div>
-      <div className="card-page__bottom">
+      <div className="card-page__footer">
         <p className="quote">
           "The cards are a mirror to your soul, reflecting the divine wisdom
           already within you."
