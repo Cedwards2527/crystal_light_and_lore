@@ -24,8 +24,8 @@ function Header() {
           </button>
         </div>
       </header>
-      <div className="about__content">
-        <Link to="/About" className="about__link">
+      <div className="cards__content">
+        <Link to="/cards" className="card__link">
           <RectangleVertical className="rectangle__icon" strokeWidth={1.5} />{" "}
           Choose a free tarot card
         </Link>

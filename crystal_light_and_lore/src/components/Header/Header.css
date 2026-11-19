@@ -127,12 +127,12 @@
   height: 1rem;
 }
 
-.about__content {
+.cards__content {
   display: flex;
   justify-content: flex-end;
 }
 
-.about__link {
+.card__link {
   font-family: Jost, sans-serif;
   margin-top: 0.5rem;
   margin-right: 1.5rem;
@@ -155,7 +155,7 @@
   height: 0.875rem;
 }
 
-.about__link:hover {
+.card__link:hover {
   box-shadow:
     0 4px 6px -1px rgb(0 0 0 / 0.1),
     0 2px 4px -2px rgb(0 0 0 / 0.1);

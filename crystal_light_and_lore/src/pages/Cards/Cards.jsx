@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Sparkles, Calendar } from "lucide-react";
-import BackToHome from "../../components/BackToHome/BackToHome.";
-
+import BackToHome from "../../components/BackToHome/BackToHome";
 import "./Cards.css";
 
 const dots = [...Array(5)].map((_, i) => <div key={i} className="dot" />);

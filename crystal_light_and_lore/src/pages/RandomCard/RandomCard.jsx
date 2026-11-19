@@ -1,4 +1,4 @@
-import BackToHome from "../../components/BackToHome/BackToHome.";
+import BackToHome from "../../components/BackToHome/BackToHome";
 
 function RandomCard() {
   return (

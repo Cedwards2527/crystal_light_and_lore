@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/daily" element={<CardOfTheDay />} />
           <Route path="/random" element={<RandomCard />} />
-          <Route path="/about" element={<Cards />} />
+          <Route path="/cards" element={<Cards />} />
         </Routes>
       </main>
       <Footer />

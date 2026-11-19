@@ -1,5 +1,5 @@
 import { Sun, Sparkles } from "lucide-react";
-import BackToHome from "../../components/BackToHome/BackToHome.";
+import BackToHome from "../../components/BackToHome/BackToHome";
 import TarotCardDisplay from "../../components/TarotCardDisplay/TarotCardDisplay";
 import "./CardOfTheDay.css";
 
