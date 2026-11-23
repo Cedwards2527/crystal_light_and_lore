@@ -4,3 +4,42 @@
   align-items: center;
   justify-content: center;
 }
+.random-icon__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+.random__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  justify-content: center;
+  animation: icon__pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.random__icon:nth-child(1) {
+  color: #86c3ce;
+}
+
+.random__icon:nth-child(2) {
+  color: #d3a48c;
+  animation-delay: 0.5s;
+}
+
+.random__icon:nth-child(3) {
+  color: #86c3ce;
+  animation-delay: 0.8s;
+}
+
+@keyframes icon__pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
