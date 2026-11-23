@@ -28,9 +28,9 @@ function CardOfTheDay() {
             tomorrow at dawn.
           </p>
           <div className="footer__sparkles">
-            <Sparkles className="day__sparkles" strokeWidth={1.5}></Sparkles>
-            <Sparkles className="day__sparkles" strokeWidth={1.5}></Sparkles>
-            <Sparkles className="day__sparkles" strokeWidth={1.5}></Sparkles>
+            <Sparkles className="day__sparkles" strokeWidth={1.5} />
+            <Sparkles className="day__sparkles" strokeWidth={1.5} />
+            <Sparkles className="day__sparkles" strokeWidth={1.5} />
           </div>
         </div>
       </div>
