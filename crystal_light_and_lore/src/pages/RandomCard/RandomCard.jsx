@@ -20,6 +20,9 @@ function RandomCard() {
             "Trust the devine timing. The card you need will always find you."
           </p>
         </p>
+        <div className="before-card__container">
+          <Sparkles className="container__sparkle" strokeWidth={1} />
+        </div>
       </div>
     </section>
   );

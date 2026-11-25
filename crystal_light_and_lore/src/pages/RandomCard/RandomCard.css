@@ -31,6 +31,60 @@
   animation-delay: 0.8s;
 }
 
+.random__title {
+  font-family:
+    Cormorant Garamond,
+    serif;
+  font-weight: 300;
+  font-size: 3.75rem;
+  background: linear-gradient(135deg, #b58a75, #d3a48c, #4a7f84);
+  -webkit-background-clip: text;
+  margin-bottom: 0.1rem;
+  margin: 0;
+  -webkit-text-fill-color: transparent;
+}
+
+.random__instructions {
+  color: #8c6f62;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: -01rem;
+}
+
+.random__quote {
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 3rem;
+  color: #6b5247;
+}
+
+.before-card__container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, rgb(253, 249, 246), rgb(239, 230, 220));
+  border-color: rgba(211, 164, 140, 0.3);
+  text-align: center;
+
+  border-radius: 10px;
+}
+
+.container__sparkle {
+  display: block;
+
+  width: 5rem;
+  height: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 64px;
+  color: #d3a48c;
+}
 @keyframes icon__pulse {
   0%,
   100% {

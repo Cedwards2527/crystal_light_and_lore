@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #efe6dc;
+  background: linear-gradient(135deg, #faf6f2 0%, #efe6dc 40%, #e8f4f6 100%);
 }
 
 .page__content {
